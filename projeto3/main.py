@@ -60,7 +60,7 @@ def main():
     ht.add_quarto(q2)
     ht.registrar_hospede(h1)
     ht.remover_quarto(q2)
-    ht.cancelar_reserva(r1)
+    print(ht.cancelar_reserva(r1))
 
     # Outras funções e lógica do programa podem ser chamadas aqui
     # Por exemplo:
